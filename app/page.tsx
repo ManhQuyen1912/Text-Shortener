@@ -12,7 +12,7 @@ const Home = () => {
   const handleClick = async () => {
     setLoading(true);
     try {
-      const response = await fetch("/api/summarize", {
+      const response = await fetch("/api/route", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
