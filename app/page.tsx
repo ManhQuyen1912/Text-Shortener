@@ -53,6 +53,9 @@ const Home = () => {
           </button>
         </div>
       </div>
+      <div className="border space-y-2 rounded bg-white overflow-hidden">
+        <div className="p-2">{summary}</div>
+      </div>
     </div>
   );
 }
